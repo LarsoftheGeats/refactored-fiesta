@@ -73,7 +73,8 @@ const gitAddCode = 'git add .'
 */
 
 //CODE HERE
-
+const gitCommitDefinition = 'Records the changes to the repository, this lets you backtrack through code if you break something.'
+const gitCommitCode ='git commit -m "initial commit" '
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -82,3 +83,4 @@ const gitAddCode = 'git add .'
 */
 
 //CODE HERE
+const gitPushDefinition = 'git push uploads a copy of your repository to a storage location you have previously chosen (gitHub normally)'
