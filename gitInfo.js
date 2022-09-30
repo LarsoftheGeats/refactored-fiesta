@@ -35,17 +35,20 @@ const gitInitDefinition = "git init turns your current folder into a repository 
     Create a variable called 'gitCloneDefinition'.  
     It should be a string containing your best definition of what 'git clone' does.
 */
-const gitCloneDefinition ="git clone copies an existing repository into a new directory."
 
 //CODE HERE
+const gitCloneDefinition ="git clone copies an existing repository into a new directory."
+
+
 
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
     It should be a string containing your best definition of what 'git status' does.
 */
-const gitStatusDefinition = 'git status tells you the status of your working tree.  This essentially lets you know whether any changes you have made have been logged into the existing repository.  for instance red marked files'
 //CODE HERE
+const gitStatusDefinition = 'git status tells you the status of your working tree.  This essentially lets you know whether any changes you have made have been logged into the existing repository.  for instance red marked files are not in the repository, and green marked files are not commited yet.  It lets you at a glance spot whether your work is saved and protected in the repo.'
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,6 +60,8 @@ const gitStatusDefinition = 'git status tells you the status of your working tre
 */
 
 //CODE HERE
+const gitAddDefinition = 'Git add stages a file to be committed to the repository.  It is a setup step to the next step of commit.  There are two types of add, the git add ., and the git add filename.ext.  The add . adds all files in a directory'
+const gitAddCode = 'git add .'
 
 //////////////////PROBLEM 7////////////////////
 /*
